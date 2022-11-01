@@ -67,26 +67,5 @@ if(e.target.class = "active"){
 if(e.target.className == 'active'){
     e.target.classList.remove('active')
     showingSubMenu = false;
-    subMenuEl.style.top='0')
-//   e.target.classList.remove('active');
-//   showingSubMenu = false;
-//   subMenuEl.style.top = '0';
-//   return;
-// }
-// //5.4
-// for(let x = 0; x < topMenuLinks.length; x++){
-//   topMenuLinks[x].classList.remove('active')
-// }
-// //5.5
-// e.target.classList.add('active')
-
-// //5.6 
-// if(e.target.subLinks != undefined){
-//   showingSubMenu = true
-// } else {
-//   showingSubMenu = false
-// }
-// //5.7
-// if(showingSubMenu === true){
-//   buildSubMenu(e.target.subLinks)
-// }
+    subMenuEl.style.top=('0');
+}
